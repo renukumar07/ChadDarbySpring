@@ -23,7 +23,7 @@
 	</bean>    
     <!--  define the dependency -->
     <bean id = "myCoach"
-    	class="com.renu.springdemo.BaseballCoach">
+    	class="com.renu.springdemo.TrackCoach">
     	
     	<!-- set up constructor injection -->
     	<constructor-arg ref="myFortune"/>
